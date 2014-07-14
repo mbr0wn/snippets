@@ -24,11 +24,11 @@ class B
 class C : public A, public B
 {
  public:
-	C() : A(), B()
+	C() : A(), B(), attr_C(3)
 	{
+		// These can't be set in the constructor
 		attr_A = 1;
 		attr_B = 2;
-		attr_C = 3;
 	}
 	~C() {};
 
