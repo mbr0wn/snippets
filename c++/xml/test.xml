@@ -1,0 +1,17 @@
+<container>
+  <name>Foo</name>
+  <key>Bar</key>
+  <ids>
+    <id>0000000000000000</id>
+    <id version="0.1">0000000000000001</id>
+    <id version="0.2">0000000000000002</id>
+  </ids>
+  <components>
+    <component>
+      <key revision="1">comp1</key>
+    </component>
+    <component attrb="0">
+      <key revision="1">comp2</key>
+    </component>
+  </components>
+</container>
