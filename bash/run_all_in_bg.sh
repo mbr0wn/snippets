@@ -2,10 +2,11 @@
 # Note the ^^^^^
 
 # Run all these in the bg, then wake them all up:
-./sleep_then_print.sh &
-./sleep_then_print.sh &
-./sleep_then_print.sh &
-./sleep_then_print.sh &
+
+for i in 1 2 3 4
+do
+	./sleep_then_print.sh &
+done
 
 RETCODE=0
 
