@@ -49,6 +49,9 @@ def main():
     print args.config
     print args.verbose
     print args.numbers
+    # You can do it multiple times:
+    args2 = parser.parse_args()
+    print args2.foo
 
 if __name__ == "__main__":
     main()

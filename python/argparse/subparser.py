@@ -17,6 +17,8 @@ def main():
     parser_b = subparsers.add_parser('b', help='b help')
     parser_b.add_argument('--local-b', type=int, help='local-b help')
 
+    parser.add_argument('--last')
+
     parser.parse_args()
     # Try -h or 'a -h'
 
