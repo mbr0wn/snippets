@@ -37,6 +37,12 @@ def main():
             help="verbosity level",
             action="count",
     )
+    # Lists:
+    parser.add_argument(
+            '--list',
+            type=list, # a callback that takes an str
+            default=5,
+    )
     # Positionals:
     parser.add_argument(
             'numbers',
